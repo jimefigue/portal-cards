@@ -588,6 +588,92 @@ body.home footer {
   margin-top: 0.2rem;
 }
 
+/* Detail Page - Wide Layout */
+.detail-card-wide {
+  max-width: 100%;
+}
+
+/* Regulatory Matrix Table */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid #94a3b8;
+  box-shadow: var(--shadow-sm);
+  margin: 1.5rem 0;
+  background: #ffffff;
+  -webkit-overflow-scrolling: touch;
+}
+
+.matrix-table {
+  width: 100%;
+  min-width: 960px;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.matrix-table th,
+.matrix-table td {
+  border: 1px solid #94a3b8;
+  padding: 0.65rem 0.5rem;
+  vertical-align: middle;
+}
+
+.matrix-table .th-empty {
+  background-color: #ffffff;
+  border-top: none;
+  border-left: none;
+}
+
+.matrix-table .th-paises {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.65rem;
+}
+
+.matrix-table .th-zona {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-align: center;
+  min-width: 250px;
+}
+
+.matrix-table .th-country {
+  background-color: #ffffff;
+  color: #0f172a;
+  font-weight: 700;
+  font-size: 0.85rem;
+  min-width: 44px;
+}
+
+.matrix-table .td-condicion {
+  background-color: #e0edfd;
+  color: #0f172a;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-align: left;
+  padding-left: 1rem;
+  white-space: nowrap;
+}
+
+.matrix-table .td-data {
+  background-color: #ffffff;
+  min-height: 40px;
+  transition: background-color 0.15s ease;
+}
+
+.matrix-table tr:hover .td-data {
+  background-color: #f1f5f9;
+}
+
+
 
 
 
