@@ -5,7 +5,7 @@ Sitio web estático multinivel diseñado con tarjetas interactivas de tamaño un
 ## 🚀 Estructura de Navegación
 
 1. **Home (`index.html`)**:
-   - 4 tarjetas medianas (1, 2, 3, 4).
+   - 6 tarjetas temáticas (MARCAS, Estabilidad, Bocetos, Médica, Bioequivalencia, EVPT MAPT).
    - Al hacer click en cada una, redirige a su página correspondiente (`pages/page-X/index.html`).
 
 2. **Páginas de Sección (`pages/page-X/index.html`)**:
