@@ -33,17 +33,68 @@
 
   <main>
     <article class="detail-card">
-      <span class="detail-badge">🏷️ MARCAS &bull; Marca vs Denominación Comercial</span>
-      <h1 class="page-title" style="text-align: left; margin-bottom: 1.5rem;">Marca vs Denominación Comercial</h1>
+      <span class="detail-badge">🏷️ MARCAS &bull; Conceptos Clave</span>
+      <h1 class="page-title" style="text-align: left; margin-bottom: 0.5rem;">Marca vs Denominación Comercial</h1>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 1rem;">
+        Distinción conceptual y regla de conformación para la identificación regulatoria de productos.
+      </p>
 
-      <div class="detail-content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula.</p>
-        <p>Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi.</p>
+      <!-- Banner de Fórmula Visual -->
+      <div class="formula-banner">
+        <span class="formula-label">Fórmula de conformación</span>
+        <div class="formula-math">
+          <span class="formula-term highlight"><strong>Denominación comercial</strong></span>
+          <span class="formula-operator">&gt;</span>
+          <span class="formula-pill"><strong>MARCA</strong></span>
+          <span class="formula-operator">+</span>
+          <span class="formula-pill"><strong>DOSIS</strong></span>
+        </div>
       </div>
 
-      <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <!-- Cuadrícula comparativa visual -->
+      <div class="concept-grid">
+        <!-- Bloque 1: MARCA -->
+        <div class="concept-card">
+          <div>
+            <div class="concept-header">
+              <span class="concept-icon">🏷️</span>
+              <h3><strong>Marca</strong></h3>
+            </div>
+            <div class="concept-body">
+              <p>Es la que aparece en la <strong>Licencia de Marca (ONAPI)</strong> o en la <strong>Licencia de marca de Paraguay</strong>.</p>
+              <div class="concept-rule alert-rule">
+                <span>🚫 <strong>No contempla</strong> la dosis.</span>
+              </div>
+            </div>
+          </div>
+          <div class="concept-example">
+            <span class="example-label">Ejemplo:</span>
+            <code class="example-chip">BUPRIVA</code>
+          </div>
+        </div>
+
+        <!-- Bloque 2: DENOMINACIÓN COMERCIAL -->
+        <div class="concept-card">
+          <div>
+            <div class="concept-header">
+              <span class="concept-icon">📦</span>
+              <h3><strong>Denominación comercial</strong></h3>
+            </div>
+            <div class="concept-body">
+              <p>Es la que utilizamos para <strong>nuestros productos</strong>.</p>
+              <div class="concept-rule info-rule">
+                <span>➕ Si corresponde, se conforma <strong>sumando la dosis</strong>.</span>
+              </div>
+            </div>
+          </div>
+          <div class="concept-example">
+            <span class="example-label">Ejemplo:</span>
+            <code class="example-chip highlight-chip">BUPRIVA 5</code>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2rem;">
         <a href="./index.html" class="btn-back">
           <span>&larr;</span> Volver a MARCAS
         </a>
