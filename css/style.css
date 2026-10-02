@@ -301,3 +301,12 @@ body.home footer {
   -webkit-backdrop-filter: blur(10px);
 }
 
+.trademark-symbol {
+  font-size: 0.7em;
+  vertical-align: super;
+  font-weight: 700;
+  color: var(--primary);
+  margin-left: 2px;
+}
+
+
